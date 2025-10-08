@@ -1,3 +1,36 @@
 body{
   background-color: white;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 13px;
+}
+
+.box_search {
+  display: flex;
+  gap: 7px;
+  height: 3.2vh;;
+}
+
+.box_search input {
+  border-radius: 15px;
+  width: 18vmax;
+  font-size: 17px;
+}
+.box_search button {
+  border-radius: 30px;
+}
+button {
+  font-size: 1vh;
+  margin: 0;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.icon_menu {
+  margin-top: -6px;
+  font-size: 30px;
+  cursor: pointer;
+}
